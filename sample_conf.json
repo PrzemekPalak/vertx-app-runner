@@ -1,12 +1,3 @@
-# Vertx App Runner
-
-Module allows You to run vertx application consisting many vertx modules using one configuration file.
-Every module in application can share the same global system properties defined in configuration file.
-
-
-Sample config file:
-
-```
 {
     // global system properties available in every module
     "systemProperties": {
@@ -39,11 +30,3 @@ Sample config file:
         }
     ]
 }
-```
-
-How to run:
-
-```
-vertx runMod pl.finsys.vertx~vertx-app-runner~1.0.0-SNAPSHOT -conf sample_conf.json
-```
-

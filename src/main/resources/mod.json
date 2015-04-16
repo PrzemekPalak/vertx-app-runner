@@ -1,0 +1,16 @@
+{
+  "main":"pl.finsys.vertx.AppRunner",
+
+  "description":"Module to run application containing other modules",
+  "licenses": ["The Apache Software License Version 2.0"],
+  "author": "Przemyslaw Palak",
+
+  // Optional fields
+  "developers": ["Przemek Palak przemek@palak.pl"],
+  "keywords": ["module management", "application config", "application runner"],
+  "homepage": "www.palak.pl",
+
+  "auto-redeploy": true,
+
+  "preserve-cwd": true
+}
